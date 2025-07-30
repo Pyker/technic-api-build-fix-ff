@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Technic API Build Fix",
+  "version": "1.0",
+  "description": "Ensures 'build=999' is included in requests to api.technicpack.net",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://api.technicpack.net/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

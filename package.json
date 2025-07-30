@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "web-ext": "^8.9.0"
+  },
+  "scripts": {
+    "start:firefox": "web-ext run"
+  }
+}
