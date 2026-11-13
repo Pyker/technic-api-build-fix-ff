@@ -3,7 +3,7 @@
     "node": ">=26 <27"
   },
   "devDependencies": {
-    "web-ext": "^8.9.0"
+    "web-ext": "^10.8.0"
   },
   "scripts": {
     "start:firefox": "web-ext run"
